@@ -53,18 +53,60 @@ $(document).ready(function () {
   });
 });
 //篩選按鈕
+// $(document).ready(function () {
+//   $(".filter-float").toggle();
+//   $(".filter__btn").click(function (e) {
+//     e.preventDefault();
+//     $(".filter-float").slideToggle();
+//   });
+// });
+// $(document).ready(function () {
+//   $(".filter-order").toggle();
+//   $(".filter__order").click(function (e) {
+//     e.preventDefault();
+//     $(".filter-order").slideToggle();
+//   });
+// });
+// filter-float--active
 $(document).ready(function () {
-  $(".filter-float").toggle();
-  $(".filter__btn").click(function (e) {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
     e.preventDefault();
-    $(".filter-float").slideToggle();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
   });
 });
 $(document).ready(function () {
-  $(".filter-order").toggle();
-  $(".filter__order").click(function (e) {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
     e.preventDefault();
-    $(".filter-order").slideToggle();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
+  });
+});
+
+$(document).ready(function () {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
+    e.preventDefault();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
+  });
+});
+$(document).ready(function () {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
+    e.preventDefault();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
   });
 });
 $(document).ready(function () {
