@@ -350,6 +350,7 @@
 .question {
   &__option {
     width: 66%;
+    cursor: pointer;
   }
   &-title {
     flex-grow: 1;

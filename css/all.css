@@ -480,6 +480,7 @@ img {
 
 .question__option {
   width: 66%;
+  cursor: pointer;
 }
 .question-title {
   flex-grow: 1;
