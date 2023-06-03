@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  font-family: "Noto Sans TC", sans-serif;
+}
+body,
+a,
+span {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+span {
+  display: block;
+}
+button {
+  cursor: pointer;
+  border-radius: 16px;
+}
+// * {
+//   outline: 1px solid red;
+// }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

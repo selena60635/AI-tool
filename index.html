@@ -8,123 +8,114 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/all.css" />
-    <script src="./js/jquery-3.6.4.min.js"></script>
-    <script src="./js/all.js"></script>
+
     <title>AI 工具王</title>
   </head>
   <body>
     <header class="container d-f jcsb aic border-b">
-      <div class="header-logo">
-        <a href="#"
-          ><img
-            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
-            alt="logo"
-        /></a>
-        <h1 class="d-n">AI工具王</h1>
+      <div class="header__logo">
+        <h1><a class="bk-dark" href="./index.html">AI工具王</a></h1>
       </div>
-      <ul class="header-list d-f aic lh-0">
+      <ul class="header__list d-f aic lh-0">
         <li><a class="py-s mr-m" href="./index.html">首頁</a></li>
         <li><a class="py-s" href="./price.html">定價</a></li>
       </ul>
       <div class="nav-icon">
-        <span class="icon-menu material-icons bk-dark"> menu </span>
-        <span class="icon-close material-icons"> close </span>
+        <span class="nav-icon__menu material-icons bk-dark"> menu </span>
+        <span class="nav-icon__close material-icons"> close </span>
       </div>
     </header>
-    <div class="nav-icon__list d-f fxdc aic jcc">
+    <div class="nav-icon__list d-f fxdc aic jcc bk-dark">
       <a class="text-6 text-900 lh-0 mb-2xs" href="./index.html">首頁</a>
       <a class="text-6 text-900 lh-0" href="./price.html">定價</a>
     </div>
     <main>
-      <section class="container title">
-        <h2 class="title_info text-900 text-title lh-0 my-l">
+      <section class="container container-s title">
+        <h2 class="title__info text-900 text-title lh-0 my-l">
           透過<br />
           AI 工具王的<br />
           強大模型<br />
           讓您的業務更聰明
         </h2>
-        <h2 class="container title_info-S text-900 text-5 lh-0 my-l d-n">
+
+        <h2 class="title__info-s my-l d-n text-900 text-5 lh-0">
           透過<br />
           AI 工具王的<br />
           強大模型<br />
           讓您的業務<br />更聰明
         </h2>
+
         <button class="title__btn btn--active border bk-dark mb-100">
           <span class="text-1 text-900 my-m mx-l lh-0">開始使用</span>
         </button>
-        <div class="motion-mask d-f jcfe">
+        <div class="mask d-f jcfe">
           <div class="motion d-f">
             <img
-              class="motion-img3"
+              class="motion__img-c"
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
               alt="deco"
             />
             <img
-              class="motion-img2"
+              class="motion__img-b"
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
               alt="deco"
             />
             <img
-              class="motion-img1"
+              class="motion__img-a"
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/deco.png"
               alt="deco"
             />
           </div>
         </div>
       </section>
-      <section class="sever container my-160">
-        <div class="sever-info d-f jcsb fxww mb-80">
-          <h3 class="sever__title text-900 text-3 lh-0">我們的服務</h3>
-          <p class="sever__content text-900 text-5 lh-0">
+      <section class="service container container-s my-160">
+        <div class="service-info d-f jcsb fxww mb-80">
+          <h3 class="service__title text-900 text-3 lh-0">我們的服務</h3>
+          <p class="service__content text-900 text-5 lh-0">
             我們相信透過 AI 技術，<br />
             包括圖像識別、自然語言處理和機器翻<br />譯等，讓您更快、更準確地做出決策。
           </p>
         </div>
-        <div class="d-f jcsb fxww">
-          <div class="sever__card py-xl px-l border-0 border-radius">
-            <img
-              class="mb-m"
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/flash%20on.png?raw=true"
-              alt="flash on"
-            />
+        <ul class="d-f jcsb fxww">
+          <li class="service__card py-xl px-l border-0 border-radius">
+            <span class="material-icons mb-m icon-l"> flash_on </span>
+
             <h3 class="text-900 text-3 mb-m">快速</h3>
             <p class="lh-1 mb-m">
               我們先進的推理基礎設施提供了極短的響應時間，讓你的產品服務不間斷。
             </p>
-          </div>
-          <div class="sever__card py-xl px-l border-0 border-radius">
-            <img
-              class="mb-m"
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/auto%20awesome.png?raw=true"
-              alt="auto awesome"
-            />
+          </li>
+          <li class="service__card py-xl px-l border-0 border-radius">
+            <span class="material-icons mb-m icon-l"> auto_awesome </span>
+
             <h3 class="text-900 text-3 lh-0 mb-m">靈活</h3>
             <p class="lh-1 mb-m">
               我們的服務可以根據您的需求進行靈活調整，同時還可以滿足不同項目和預算的需求。
             </p>
-          </div>
-          <div class="sever__card py-xl px-l border-0 border-radius">
-            <img
-              class="mb-m"
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/library%20add.png?raw=true"
-              alt="library add"
-            />
+          </li>
+          <li class="service__card py-xl px-l border-0 border-radius">
+            <span class="material-icons mb-m icon-l"> library_add </span>
+
             <h3 class="text-900 text-3 lh-0 mb-m">擴充</h3>
             <p class="lh-1 mb-m">
               我們的服務支持多種擴充選項，可以滿足您的不斷增長的 AI 需求。
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
-      <section class="partner container my-160">
-        <div class="partner-title mb-80 text-900 text-3 lh-0">
+      <section class="partner container container-s my-160">
+        <div class="partner__title mb-80 text-900 text-3 lh-0">
           <h3>來自合作夥伴</h3>
         </div>
-        <div class="partner-enterprise">
+        <div class="partner__enterprise">
           <div>
-            <div class="partner__mask1"></div>
-            <div class="partner__mask2"></div>
+            <div class="partner__mask-a"></div>
+            <div class="partner__mask-b"></div>
           </div>
           <div class="partner__img d-f moveSlideshow">
             <img
@@ -189,10 +180,10 @@
             />
           </div>
         </div>
-        <div class="partner-enterprise">
+        <div class="partner__enterprise">
           <div>
-            <div class="partner__mask1"></div>
-            <div class="partner__mask2"></div>
+            <div class="partner__mask-a"></div>
+            <div class="partner__mask-b"></div>
           </div>
           <div class="partner__img d-f moveSlideshow-b">
             <img
@@ -257,168 +248,28 @@
             />
           </div>
         </div>
-        <div class="partner-comment d-f jcsb fxww border-radius mt-160">
-          <div class="partner__card bk-a p-l d-f fxdc border-radius">
-            <div class="star d-f jcsb mb-m">
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-            </div>
-            <p class="partner__content mb-m lh-1">
-              非常喜歡 AI工具王 提供的 AI
-              模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王
-              提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！
-            </p>
-            <div class="partner-avatar d-f">
-              <img
-                class="mr-s"
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar3.png?raw=true"
-                alt="avatar3"
-              />
-              <div class="partner__info d-f fxdc jcsb">
-                <span class="lh-1 text-700">陳小姐</span>
-                <span class="lh-1 text-0">ABC科技有限公司</span>
-              </div>
-            </div>
-          </div>
-          <div class="partner__card bk-a p-l d-f fxdc border-radius">
-            <div class="star d-f jcsb mb-m">
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-            </div>
-            <p class="partner__content mb-m lh-1">
-              作為一家醫療器材公司，我們非常關注人工智能技術的應用，而 AI工具王
-              提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
-              的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝
-              AI工具王 團隊的辛勤工作！
-            </p>
-            <div class="partner-avatar d-f">
-              <img
-                class="mr-s"
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar1.png?raw=true"
-                alt="avatar1"
-              />
-              <div class="partner__info d-f fxdc jcsb">
-                <span class="lh-1 text-700">劉小姐</span>
-                <span class="lh-1 text-0">XYZ 醫療器材有限公司</span>
-              </div>
-            </div>
-          </div>
-          <div class="partner__card bk-a p-l d-f fxdc border-radius">
-            <div class="star d-f jcsb mb-m">
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-              <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                alt="star"
-              />
-            </div>
-            <p class="partner__content mb-m lh-1">
-              我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而
-              AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用
-              AI工具王
-              的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝
-              AI工具王 團隊的支持！
-            </p>
-            <div class="partner-avatar d-f">
-              <img
-                class="mr-s"
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar2.png?raw=true"
-                alt="avatar2"
-              />
-              <div class="partner__info d-f fxdc jcsb">
-                <span class="lh-1 text-700">黃先生</span>
-                <span class="lh-1 text-0">EFG 銀行</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slider container">
-          <div class="imgs_slides">
-            <input type="radio" name="radio-btn" id="radio1" />
-            <input type="radio" name="radio-btn" id="radio2" />
-            <input type="radio" name="radio-btn" id="radio3" />
-            <div
-              class="partner__card bk-a p-l d-f fxdc border-radius first slide"
+        <div class="swiper container mt-160">
+          <ul
+            class="partner__comment d-f jcsb border-radius swiper-wrapper mb-3xl"
+          >
+            <li
+              class="partner__card bk-alpha d-f fxdc border-radius swiper-slide"
             >
               <div class="star d-f jcsb mb-m">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
               </div>
-              <p class="partner__content mb-m lh-1">
-                非常喜歡 AI工具王 提供的 AI
-                模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王
-                提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！
-              </p>
-
-              <div class="partner-avatar d-f">
+              <div class="partner__content mb-m">
+                <p class="lh-1">
+                  非常喜歡 AI工具王 提供的 AI
+                  模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王
+                  提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！
+                </p>
+              </div>
+              <div class="partner__avatar d-f">
                 <img
                   class="mr-s"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar3.png?raw=true"
@@ -429,38 +280,27 @@
                   <span class="lh-1 text-0">ABC科技有限公司</span>
                 </div>
               </div>
-            </div>
-            <div class="partner__card bk-a p-l d-f fxdc border-radius slide">
+            </li>
+            <li
+              class="partner__card bk-alpha p-l d-f fxdc border-radius swiper-slide"
+            >
               <div class="star d-f jcsb mb-m">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
               </div>
-              <p class="partner__content mb-m lh-1">
-                作為一家醫療器材公司，我們非常關注人工智能技術的應用，而
-                AI工具王 提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用
-                AI工具王
-                的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝
-                AI工具王 團隊的辛勤工作！
-              </p>
-              <div class="partner-avatar d-f">
+              <div class="partner__content mb-m">
+                <p class="lh-1">
+                  作為一家醫療器材公司，我們非常關注人工智能技術的應用，而
+                  AI工具王 提供的 AI
+                  模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
+                  的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝
+                  AI工具王 團隊的辛勤工作！
+                </p>
+              </div>
+              <div class="partner__avatar d-f">
                 <img
                   class="mr-s"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar1.png?raw=true"
@@ -471,38 +311,27 @@
                   <span class="lh-1 text-0">XYZ 醫療器材有限公司</span>
                 </div>
               </div>
-            </div>
-            <div class="partner__card bk-a p-l d-f fxdc border-radius slide">
+            </li>
+            <li
+              class="partner__card bk-alpha p-l d-f fxdc border-radius swiper-slide"
+            >
               <div class="star d-f jcsb mb-m">
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/star.png?raw=true"
-                  alt="star"
-                />
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
+                <span class="material-icons icon-s"> star </span>
               </div>
-              <p class="partner__content mb-m lh-1">
-                我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而
-                AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用
-                AI工具王
-                的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝
-                AI工具王 團隊的支持！
-              </p>
-              <div class="partner-avatar d-f">
+              <div class="partner__content mb-m">
+                <p class="lh-1">
+                  我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而
+                  AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用
+                  AI工具王
+                  的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝
+                  AI工具王 團隊的支持！
+                </p>
+              </div>
+              <div class="partner__avatar d-f">
                 <img
                   class="mr-s"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/avatar2.png?raw=true"
@@ -513,137 +342,148 @@
                   <span class="lh-1 text-0">EFG 銀行</span>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="navigation d-f jcc aic">
-          <label for="radio1" class="navigation-btn"><div></div></label>
-          <label for="radio2" class="navigation-btn"> </label>
-          <label for="radio3" class="navigation-btn"> </label>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="bk-light border-radius120">
-        <div class="tool container py-160">
+
+      <section class="tool bk-light border-radius120">
+        <div class="container container-s py-160">
           <h3 class="text-900 text-6 text-c text-dark lh-0 mb-80">
             這些超酷的應用，都來自 AI工具王
           </h3>
-          <div class="search d-f aic bk-tool px-l py-m border-radius mb-s">
-            <img
-              class="mr-s"
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/search.png?raw=true"
-              alt="search"
-            />
+
+          <label
+            class="search d-f aic bk-tool px-l py-m border-radius mb-s"
+            for="search"
+          >
+            <span class="material-icons text-dark1 mr-s"> search </span>
+
             <input
               class="bk-tool border-n lh-1"
               type="text"
+              id="search"
               placeholder="輸入關鍵字搜尋"
             />
-          </div>
+          </label>
+
           <div class="filter d-f jcsb aic fxww">
             <div>
               <button class="filter__btn d-f aic pm-btn bk-light border-2">
-                <span class="text-dark lh-1 mr-xs">篩選</span>
-                <img src="./img/Vector.png" alt="filter alt" />
+                <span class="text-dark lh-1 mr-xs icon-s">篩選</span>
+                <span class="material-icons text-dark icon-s">
+                  filter_alt
+                </span>
               </button>
-              <div
+              <ul
                 class="filter-float text-dark lh-1 mt-2xs bk-light border-radius"
               >
-                <span class="text-dark1 text-00 text-700 mb-2xs">AI 模型</span>
-                <ul class="filter-float__list border-2b">
-                  <li class="py-2xs">所有模型</li>
-                  <li class="py-2xs">卡卡</li>
-                  <li class="py-2xs">杰杰</li>
-                  <li class="py-2xs">琪琪</li>
-                  <li class="py-xs">昊昊</li>
+                <ul class="border-2b">
+                  <li>
+                    <span class="text-dark1 text-00 text-700 mb-2xs ml-xl"
+                      >AI 模型</span
+                    >
+                  </li>
+                  <li class="filter-float--active mb-2xs"><p>所有模型</p></li>
+                  <li class="filter-float--active mb-2xs"><p>卡卡</p></li>
+
+                  <li class="filter-float--active mb-2xs"><p>杰杰</p></li>
+                  <li class="filter-float--active mb-2xs"><p>琪琪</p></li>
+                  <li class="filter-float--active mb-s">
+                    <p>昊昊</p>
+                  </li>
                 </ul>
-                <span class="text-dark1 text-00 text-700 mb-2xs mt-s"
-                  >類型</span
-                >
-                <ul class="filter-float__list">
-                  <li class="py-2xs">所有模型</li>
-                  <li class="py-2xs">篩選項目 1</li>
-                  <li class="py-2xs">篩選項目 2</li>
-                  <li class="py-2xs">篩選項目 3</li>
-                  <li class="py-2xs">篩選項目 4</li>
-                  <li class="py-2xs">篩選項目 5</li>
-                  <li class="py-2xs">篩選項目 6</li>
-                </ul>
-              </div>
+                <li>
+                  <span class="text-dark1 text-00 text-700 mb-2xs pt-s ml-xl"
+                    >類型</span
+                  >
+                </li>
+                <li class="filter-float--active mb-2xs"><p>所有模型</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 1</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 2</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 3</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 4</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 5</p></li>
+                <li class="filter-float--active mb-2xs"><p>篩選項目 6</p></li>
+              </ul>
             </div>
             <div class="filter__order">
               <button class="d-f aic pm-btn bk-light border-2">
-                <span class="text-dark lh-1 mr-xs">由新到舊</span>
-
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/keyboard%20arrow%20down.png?raw=true"
-                  alt="keyboard arrow down"
-                />
+                <span class="text-dark lh-1 mr-xs icon-s">由新到舊</span>
+                <span class="material-icons text-dark icon-s">
+                  keyboard_arrow_down
+                </span>
               </button>
               <div
-                class="filter-order text-dark lh-1 mt-2xs bk-light border-radius"
+                class="filter-order text-dark lh-1 bk-light border-radius mt-2xs"
               >
-                <p class="mb-2xs">由新到舊</p>
-                <p>由舊到新</p>
+                <div class="filter-order--active mb-2xs">
+                  <p>由新到舊</p>
+                </div>
+                <div class="filter-order--active">
+                  <p>由舊到新</p>
+                </div>
               </div>
             </div>
-            <div class="filter-sort">
-              <button class="border-n ps-btn bk-tool">
+            <div class="filter__sort">
+              <button class="border-n ps-btn bk-tool icon-s">
                 <span class="text-dark text-700 lh-1">全部</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">聊天</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">影像辨識</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">翻譯</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">行銷</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">客服</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">生產力</span>
               </button>
             </div>
           </div>
-          <div class="filter-scroll">
-            <div class="filter-sort-s d-n jcsb">
-              <button class="border-n ps-btn bk-tool">
+          <div class="filter__scroll">
+            <div class="filter__sort-s d-n jcsb">
+              <button class="border-n ps-btn bk-tool icon-s">
                 <span class="text-dark text-700 lh-1">全部</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">聊天</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">影像辨識</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">翻譯</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">行銷</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">客服</span>
               </button>
-              <button class="border-n ps-btn bk-light">
+              <button class="border-n ps-btn bk-light icon-s">
                 <span class="text-tool lh-1">生產力</span>
               </button>
             </div>
           </div>
           <ul class="menu d-f jcsb fxww my-l">
             <li class="menu__card d-f fxdc border-radius border-2 mb-s">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool1.png?raw=true"
                   alt="tool1"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">Chatbot Builder</h4>
                 <p class="text-dark2 text-0 lh-1">
@@ -657,21 +497,18 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#聊天</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
             <li class="menu__card d-f fxdc border-radius border-2 mb-s">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool2.png?raw=true"
                   alt="tool2"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">
                   Image Recognition Platform
@@ -687,21 +524,18 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#影像辨識</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
             <li class="menu__card d-f fxdc border-radius border-2 mb-s">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool3.png?raw=true"
                   alt="tool3"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">
                   Language Translation API
@@ -717,21 +551,18 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#翻譯</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
             <li class="menu__card d-f fxdc border-radius border-2">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool4.png?raw=true"
                   alt="tool4"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">
                   Sentiment Analysis API
@@ -747,21 +578,18 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#行銷</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
             <li class="menu__card d-f fxdc border-radius border-2">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool5.png?raw=true"
                   alt="tool5"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">
                   Fraud Detection Platform
@@ -777,21 +605,18 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#客服</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
             <li class="menu__card d-f fxdc border-radius border-2">
-              <a href="#" class="card__img border-radius-t">
+              <div class="card__img border-radius-t">
                 <img
                   class="card__img--active border-radius-t"
                   src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/tool6.png?raw=true"
                   alt="tool6"
                 />
-              </a>
+              </div>
               <div class="card__content py-m px-m border-2b">
                 <h4 class="text-dark text-900 text-1 mb-xs">
                   Voice Assistant SDK
@@ -807,10 +632,7 @@
               <div class="card__share d-f jcsb aic py-m px-m">
                 <span class="text-dark lh-1">#生產力</span>
                 <a href="#">
-                  <img
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023web-camp/icons/share.png?raw=true"
-                    alt="share"
-                  />
+                  <span class="material-icons text-dark"> share </span>
                 </a>
               </div>
             </li>
@@ -845,12 +667,12 @@
           </div>
         </div>
       </section>
-      <section class="start container d-f fxdc aic py-160 border-b">
-        <h5 class="start-title text-900 text-5 lh-0 mb-2xl">
+      <section class="start container container-s d-f fxdc aic py-160 border-b">
+        <h5 class="start__title text-900 text-5 lh-0 mb-2xl">
           現在就來建立屬於你的服務吧
         </h5>
 
-        <h5 class="start-title-s text-900 text-3 text-c lh-0 mb-80 d-n">
+        <h5 class="start__title-s text-900 text-3 text-c lh-0 mb-2xl d-n">
           現在就來建立<br />屬於你的服務吧
         </h5>
         <button class="btn--active d-f pm-btn bk-dark border">
@@ -859,13 +681,13 @@
         </button>
       </section>
     </main>
-    <footer class="container">
+    <footer class="container container-s">
       <div class="footer-link d-f jcsb fxww py-xl border-b">
-        <ul class="footer-list text-900 text-6 lh-0">
+        <ul class="footer-link__list text-900 text-6 lh-0">
           <li><a class="d-b mb-2xs" href="./index.html">首頁</a></li>
           <li><a class="d-b" href="./price.html">定價</a></li>
         </ul>
-        <div class="footer-logo">
+        <div class="footer__logo">
           <a href="#"
             ><img
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/logo.png"
@@ -889,5 +711,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/all.js"></script>
   </body>
 </html>
