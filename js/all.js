@@ -1,6 +1,4 @@
 const swiper = new Swiper(".swiper", {
-  // 分頁、左右箭頭、滾動條若有使用則必需設定
-  // 分頁
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -67,5 +65,26 @@ $(document).ready(function () {
   $(".filter__order").click(function (e) {
     e.preventDefault();
     $(".filter-order").slideToggle();
+  });
+});
+
+$(document).ready(function () {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
+    e.preventDefault();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
+  });
+});
+$(document).ready(function () {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
+    e.preventDefault();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
   });
 });
