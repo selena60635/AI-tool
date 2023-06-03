@@ -78,3 +78,13 @@ $(document).ready(function () {
     }
   });
 });
+$(document).ready(function () {
+  $(".icon-check").hide();
+  $(".filter-float--active").click(function (e) {
+    e.preventDefault();
+    $(".icon-check").hide();
+    if ($(".icon-check", this).css("display") == "none") {
+      $(".icon-check", this).show();
+    }
+  });
+});
